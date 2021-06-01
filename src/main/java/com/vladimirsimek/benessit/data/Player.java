@@ -5,12 +5,40 @@ public class Player {
     private String characterName;
     private int level;
     private int xpCount;
+    private int xpTotal;
+    private int xpMax;
 
     public Player(String characterClass, String characterName) {
         this.characterClass = characterClass;
         this.characterName = characterName;
         this.level = 0;
         this.xpCount = 0;
+        this.xpMax = 500;
+        this.xpTotal = 0;
+    }
+
+    public void addXp(int xpAmount) {
+        this.xpTotal += xpAmount;
+        this.xpCount += xpAmount;
+    }
+
+    public void performXp() {
+        if (xpCount >= xpMax) {
+            levelUp();
+        }
+    }
+
+    public void levelUp() {
+        xpCount -= xpMax;
+        xpMax *= 1.2;
+    }
+
+    public int getXpMax() {
+        return xpMax;
+    }
+
+    public void setXpMax(int xpMax) {
+        this.xpMax = xpMax;
     }
 
     public String getCharacterClass() {

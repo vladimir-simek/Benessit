@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+
+<?import java.lang.String?>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vladimirsimek.benessit.gui.ControllerCreatPlayer">
+   <children>
+      <ImageView fitHeight="320.0" fitWidth="320.0">
+         <image>
+            <Image url="@../../../../../../Krita/playerBenessit.png" />
+         </image>
+         <StackPane.margin>
+            <Insets bottom="450.0" right="1200.0" />
+         </StackPane.margin>
+      </ImageView>
+      <TextField maxHeight="50.0" maxWidth="400.0">
+         <StackPane.margin>
+            <Insets bottom="450.0" right="350.0" />
+         </StackPane.margin>
+      </TextField>
+      <Text scaleX="4.0" scaleY="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your character name:">
+         <StackPane.margin>
+            <Insets bottom="600.0" right="200.0" />
+         </StackPane.margin>
+      </Text>
+      <Text layoutX="799.0" layoutY="255.0" scaleX="4.0" scaleY="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your class:">
+         <StackPane.margin>
+            <Insets bottom="300.0" right="260.0" />
+         </StackPane.margin>
+      </Text>
+      <ComboBox fx:id="classChooser" maxHeight="50.0" maxWidth="400.0" prefWidth="150.0">
+         <StackPane.margin>
+            <Insets bottom="150.0" right="350.0" />
+         </StackPane.margin></ComboBox>
+   </children>
+</StackPane>

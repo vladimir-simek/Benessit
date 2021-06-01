@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vladimirsimek.benessit.gui.Controller">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vladimirsimek.benessit.gui.ControllerMainMenu">
    <children>
       <ImageView fitHeight="266.0" fitWidth="400.0">
          <image>
@@ -20,7 +20,7 @@
       </ImageView>
       <BorderPane prefHeight="202.0" prefWidth="1920.0">
          <top>
-            <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="600.0" text="Play" BorderPane.alignment="CENTER">
+            <Button fx:id="playButton" mnemonicParsing="false" onAction="#switchToCreatePlayer" prefHeight="120.0" prefWidth="600.0" text="Play" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Liberation Serif" size="64.0" />
                </font>
