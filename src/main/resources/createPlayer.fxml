@@ -20,7 +20,7 @@
             <Insets bottom="450.0" right="1200.0" />
          </StackPane.margin>
       </ImageView>
-      <TextField maxHeight="50.0" maxWidth="400.0">
+      <TextField fx:id="characterName" maxHeight="50.0" maxWidth="400.0">
          <StackPane.margin>
             <Insets bottom="450.0" right="350.0" />
          </StackPane.margin>

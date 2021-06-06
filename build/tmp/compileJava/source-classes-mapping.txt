@@ -1,10 +1,12 @@
 com/vladimirsimek/benessit/gui/ControllerMainMenu.java
  com.vladimirsimek.benessit.gui.ControllerMainMenu
+com/vladimirsimek/benessit/data/Player.java
+ com.vladimirsimek.benessit.data.Player
+com/vladimirsimek/benessit/gui/Window.java
+ com.vladimirsimek.benessit.gui.Window
 com/vladimirsimek/benessit/Main.java
  com.vladimirsimek.benessit.Main
 com/vladimirsimek/benessit/gui/ControllerCreatPlayer.java
  com.vladimirsimek.benessit.gui.ControllerCreatPlayer
-com/vladimirsimek/benessit/gui/Window.java
- com.vladimirsimek.benessit.gui.Window
-com/vladimirsimek/benessit/data/Player.java
- com.vladimirsimek.benessit.data.Player
+com/vladimirsimek/benessit/gui/ControllerRoom.java
+ com.vladimirsimek.benessit.gui.ControllerRoom
