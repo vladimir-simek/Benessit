@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.StackPane?>
@@ -77,5 +78,15 @@
             <Insets bottom="500.0" left="1400.0" />
          </StackPane.margin>
       </ImageView>
+      <ProgressBar fx:id="asianWomanBar" prefHeight="50.0" prefWidth="600.0" progress="1.0" visible="false">
+         <StackPane.margin>
+            <Insets bottom="600.0" />
+         </StackPane.margin>
+      </ProgressBar>
+      <Button fx:id="fightButton" layoutX="845.0" layoutY="758.0" mnemonicParsing="false" onAction="#fight" prefHeight="75.0" prefWidth="250.0" text="FIGHT" visible="false">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
    </children>
 </StackPane>
